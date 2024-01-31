@@ -5,6 +5,7 @@ import { MatSelectChange } from '@angular/material/select';
 import { MatSort, Sort } from '@angular/material/sort';
 
 import { EmployeeService } from '../../core/services/employee.service';
+import { timer } from 'rxjs';
 
 
 @Component({
@@ -14,6 +15,8 @@ import { EmployeeService } from '../../core/services/employee.service';
 export class EmployeesComponent implements OnInit {
 
   employeeList: any = [];
+
+  isLoading: boolean = false;
 
   displayedColumns: string[] = [
     'name',
@@ -26,13 +29,16 @@ export class EmployeesComponent implements OnInit {
   constructor(private _employeeService: EmployeeService) { }
 
   ngOnInit() {
+    this.isLoading = true;
     this._employeeService.getEmployeeList()
     .subscribe(results => {
       this.employeeList = results.results;
       console.log('swapi results: ', results);
+      this.isLoading = false;
     },
     err => {
       console.log('swapi error: ', err);
+      this.isLoading = false;
     })
   }
 
