@@ -7,6 +7,8 @@ import { MatListModule } from '@angular/material/list';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatSidenavModule } from '@angular/material/sidenav';
 
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 import { LayoutComponent } from './layout.component';
 import { PageFooterComponent } from './page-footer/page-footer.component';
 import { NavigationComponent } from './navigation/navigation.component';
@@ -19,7 +21,8 @@ import { TopNavBarComponent } from './top-nav-bar/top-nav-bar.component';
     MatIconModule,
     MatListModule,
     MatMenuModule,
-    MatSidenavModule
+    MatSidenavModule,
+    FontAwesomeModule
   ],
   declarations: [
     LayoutComponent,

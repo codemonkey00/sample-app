@@ -1,15 +1,17 @@
 
-<app-top-nav-bar></app-top-nav-bar>
-
-<div>
-    <mat-sidenav-container>
+<div class="page-wrapper">
+    <mat-sidenav-container fullscreen>
+        
 
         <mat-sidenav mode="side" opened>
+            <img class="nav-img" src="assets/images/calvin-and-hobbes-small.jpg">
             <app-navigation>
             </app-navigation>
         </mat-sidenav>
 
         <mat-sidenav-content>
+
+            <app-top-nav-bar></app-top-nav-bar>
 
             <div class="wrapper wrapper-content">
                 <router-outlet></router-outlet>
