@@ -1,0 +1,22 @@
+
+<div>
+  <mat-nav-list color="white">
+
+      <a mat-list-item [routerLinkActive]="['active-link']" [routerLinkActiveOptions]="{exact:true}" [routerLink]="['/home']">
+          <i class="fad fa-home"></i><span class="matnav-menu-full-width">&nbsp;&nbsp;Dashboard</span>
+      </a>
+
+      <a mat-list-item [routerLinkActive]="['active-link']" [routerLinkActiveOptions]="{exact:true}" [routerLink]="['/customers']">
+          <i class="fad fa-tags"></i><span class="matnav-menu-full-width">&nbsp;&nbsp;Customers</span>
+      </a>
+
+      <a mat-list-item [routerLinkActive]="['active-link']" [routerLinkActiveOptions]="{exact:true}" [routerLink]="['/employees']">
+        <i class="fad fa-tags"></i><span class="matnav-menu-full-width">&nbsp;&nbsp;Employees</span>
+    </a>
+
+    <br><br>
+    <span class="white-text">{{currentTheme}}</span>
+    <br>
+    <button class="btn btn-outline" (click)="setPrevTheme()">Prev Theme</button><button class="btn btn-outline" (click)="setNextTheme()">Next Theme</button>
+  </mat-nav-list>
+</div>

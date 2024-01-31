@@ -1,0 +1,22 @@
+
+<app-top-nav-bar></app-top-nav-bar>
+
+<div>
+    <mat-sidenav-container>
+
+        <mat-sidenav mode="side" opened>
+            <app-navigation>
+            </app-navigation>
+        </mat-sidenav>
+
+        <mat-sidenav-content>
+
+            <div class="wrapper wrapper-content">
+                <router-outlet></router-outlet>
+            </div>
+
+            <app-page-footer></app-page-footer>
+    
+        </mat-sidenav-content>
+    </mat-sidenav-container>
+</div>

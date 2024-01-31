@@ -1,0 +1,40 @@
+<div class="ibox">
+
+  <div class="ibox-title">
+    <h3>Customers</h3>
+  </div>
+
+  <div class="ibox-content ibox-content-no-footer">
+    <div class="row">
+      <div class="col-12">
+        <!-- <ul>
+          <li *ngFor="let cust of customerList">{{cust.firstName}}&nbsp;{{cust.lastName}}</li>
+        </ul> -->
+        <div>
+          <ngb-accordion [closeOthers]="true" (panelChange)="panelChange($event)">
+            <ngb-panel ngbAccordionItem *ngFor="let cust of customerList" id="{{cust.id}}">
+              <ng-template ngbPanelTitle>
+                <span>{{cust.firstName}}&nbsp;{{cust.lastName}}</span>
+              </ng-template>
+
+              <ng-template ngbPanelContent>
+                <div class="row">
+                    <div class="col-10">
+                      <strong>Email:</strong>&nbsp;<input type="email" [(ngModel)]="cust.email"/><br>
+                      <strong>Created Date:</strong> {{cust.createdDateTime | date: 'short'}}<br>
+                      <strong>Last Updated:</strong> {{cust.updatedDateTime | date: 'short'}}<br>
+                    </div>
+                    <div class="col-2">
+                      <button class="btn btn-primary" (click)="updateCustomer(cust)">Update</button>
+                    </div>
+                </div>
+              </ng-template>
+
+            </ngb-panel>
+          </ngb-accordion>
+      </div>
+      </div>
+    </div>
+  </div>
+
+</div>

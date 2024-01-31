@@ -1,0 +1,188 @@
+[
+    {
+      "id": 1,
+      "email": "ProfessorX@xmen.com",
+      "firstName": "Charles",
+      "lastName": "Xavier",
+      "createdDateTime": "2023-10-29T15:50:53Z",
+      "updatedDateTime": "2023-10-29T15:50:53Z"
+    },
+    {
+      "id": 2,
+      "email": "Cyclops@xmen.com",
+      "firstName": "Scott",
+      "lastName": "Summers",
+      "createdDateTime": "2024-01-17T05:03:43Z",
+      "updatedDateTime": "2024-01-17T05:03:43Z"
+    },
+    {
+      "id": 3,
+      "email": "Iceman@xmen.com",
+      "firstName": "Robert",
+      "lastName": "Drake",
+      "createdDateTime": "2023-12-12T19:19:34Z",
+      "updatedDateTime": "2023-12-12T19:19:34Z"
+    },
+    {
+      "id": 4,
+      "email": "Beast@xmen.com",
+      "firstName": "Hank",
+      "lastName": "McCoy",
+      "createdDateTime": "2023-12-06T12:10:48Z",
+      "updatedDateTime": "2023-12-06T12:10:48Z"
+    },
+    {
+      "id": 5,
+      "email": "Archangel@xmen.com",
+      "firstName": "Warren",
+      "lastName": "Worthington III",
+      "createdDateTime": "2023-05-26T09:55:11Z",
+      "updatedDateTime": "2023-05-26T09:55:11Z"
+    },
+    {
+      "id": 6,
+      "email": "MarvelGirl@xmen.com",
+      "firstName": "Jean",
+      "lastName": "Grey",
+      "createdDateTime": "2023-09-27T08:39:51Z",
+      "updatedDateTime": "2023-09-27T08:39:51Z"
+    },
+    {
+      "id": 7,
+      "email": "Havok@xmen.com",
+      "firstName": "Alexander",
+      "lastName": "Summers",
+      "createdDateTime": "2023-09-01T08:50:23Z",
+      "updatedDateTime": "2023-09-01T08:50:23Z"
+    },
+    {
+      "id": 8,
+      "email": "Nightcrawler@xmen.com",
+      "firstName": "Kurt",
+      "lastName": "Wagner",
+      "createdDateTime": "2023-05-12T03:55:14Z",
+      "updatedDateTime": "2023-05-12T03:55:14Z"
+    },
+    {
+      "id": 9,
+      "email": "Wolverine@xmen.com",
+      "firstName": "Logan",
+      "lastName": "Howlett",
+      "createdDateTime": "2023-01-25T12:28:03Z",
+      "updatedDateTime": "2023-01-25T12:28:03Z"
+    },
+    {
+      "id": 10,
+      "email": "Banshee@xmen.com",
+      "firstName": "Sean",
+      "lastName": "Cassidy",
+      "createdDateTime": "2023-02-24T06:59:40Z",
+      "updatedDateTime": "2023-02-24T06:59:40Z"
+    },
+    {
+      "id": 11,
+      "email": "Storm@xmen.com",
+      "firstName": "Ororo",
+      "lastName": "Munroe",
+      "createdDateTime": "2023-01-25T18:30:05Z",
+      "updatedDateTime": "2023-01-25T18:30:05Z"
+    },
+    {
+      "id": 12,
+      "email": "Sunfire@xmen.com",
+      "firstName": "Shiro",
+      "lastName": "Yoshida",
+      "createdDateTime": "2023-12-29T12:40:35Z",
+      "updatedDateTime": "2023-12-29T12:40:35Z"
+    },
+    {
+      "id": 13,
+      "email": "Colossus@xmen.com",
+      "firstName": "Piotr",
+      "lastName": "Rasputin",
+      "createdDateTime": "2023-06-24T11:49:28Z",
+      "updatedDateTime": "2023-06-24T11:49:28Z"
+    },
+    {
+      "id": 14,
+      "email": "Thunderbird@xmen.com",
+      "firstName": "John",
+      "lastName": "Proudstar",
+      "createdDateTime": "2023-04-21T06:12:42Z",
+      "updatedDateTime": "2023-04-21T06:12:42Z"
+    },
+    {
+      "id": 15,
+      "email": "Shadowcat@xmen.com",
+      "firstName": "Kitty",
+      "lastName": "Pryde",
+      "createdDateTime": "2023-04-22T18:50:30Z",
+      "updatedDateTime": "2023-04-22T18:50:30Z"
+    },
+    {
+      "id": 16,
+      "email": "Rogue@xmen.com",
+      "firstName": "Anna",
+      "lastName": "LeBeau",
+      "createdDateTime": "2023-06-05T22:14:27Z",
+      "updatedDateTime": "2023-06-05T22:14:27Z"
+    },
+    {
+      "id": 17,
+      "email": "Magneto@xmen.com",
+      "firstName": "Erik",
+      "lastName": "Eisenhardt",
+      "createdDateTime": "2023-07-18T12:23:23Z",
+      "updatedDateTime": "2023-07-18T12:23:23Z"
+    },
+    {
+      "id": 18,
+      "email": "Psylocke@xmen.com",
+      "firstName": "Elizabeth",
+      "lastName": "Braddock",
+      "createdDateTime": "2023-10-31T11:19:44Z",
+      "updatedDateTime": "2023-10-31T11:19:44Z"
+    },
+    {
+      "id": 19,
+      "email": "Dazzler@xmen.com",
+      "firstName": "Alison",
+      "lastName": "Blaire",
+      "createdDateTime": "2023-10-22T02:53:36Z",
+      "updatedDateTime": "2023-10-22T02:53:36Z"
+    },
+    {
+      "id": 20,
+      "email": "Gambit@xmen.com",
+      "firstName": "Remy",
+      "lastName": "LeBeau",
+      "createdDateTime": "2023-12-29T07:01:45Z",
+      "updatedDateTime": "2023-12-29T07:01:45Z"
+    },
+    {
+      "id": 21,
+      "email": "Jubilee@xmen.com",
+      "firstName": "Jubilation",
+      "lastName": "Lee",
+      "createdDateTime": "2023-08-23T06:46:52Z",
+      "updatedDateTime": "2023-08-23T06:46:52Z"
+    },
+    {
+      "id": 22,
+      "email": "Bishop@xmen.com",
+      "firstName": "Lucas",
+      "lastName": "Bishop",
+      "createdDateTime": "2023-11-23T00:01:12Z",
+      "updatedDateTime": "2023-11-23T00:01:12Z"
+    },
+    {
+      "id": 23,
+      "email": "Cable@xmen.com",
+      "firstName": "Nathan",
+      "lastName": "Summers",
+      "createdDateTime": "2023-06-07T07:12:35Z",
+      "updatedDateTime": "2023-06-07T07:12:35Z"
+    }
+  ]
+
+

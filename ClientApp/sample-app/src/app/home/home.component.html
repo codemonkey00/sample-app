@@ -1,0 +1,54 @@
+<div class="row">
+    <div class="col-12">
+
+        <div class="flex-container">
+
+            <div class="flex-item">
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="ibox float-e-margins">
+                        <div class="ibox-title">
+                            <h5><fa-icon [icon]="_faUsersGear"></fa-icon> Customers</h5>
+                        </div>
+                        <div class="ibox-content text-center">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h2 class="m-b-sm">{{customerCount}}</h2>
+                                    <small>Customer Count</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ibox-footer text-center">
+                            <button type="button" [routerLink]="['/customers']" class="btn btn-sm btn-primary">Details</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="ibox float-e-margins">
+                        <div class="ibox-title">
+                            <h5><fa-icon [icon]="_faBuildingUser"></fa-icon> Employees</h5>
+                        </div>
+                        <div class="ibox-content text-center">
+                            <div class="row">
+                                <div class="col-12">
+                                    <p class="m-b-sm">No Messages</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ibox-footer text-center">
+                            <button type="button" [routerLink]="['/employees']" class="btn btn-sm btn-primary">Details</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

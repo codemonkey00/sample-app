@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+@import 'assets/scss/variables.scss';
+@import 'assets/scss/style.scss';
+
+//@import 'assets/scss/mixins.scss';
+@import 'assets/scss/themes.scss';
+
+:root {
+    @include spread-map($default-theme);
+  }

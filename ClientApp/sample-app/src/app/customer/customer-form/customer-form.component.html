@@ -1,0 +1,59 @@
+<div class="ibox">
+  <div class="ibox-title">
+    <h3>Add Customer</h3>
+  </div>
+
+  <div class="ibox-content ibox-content-no-footer">
+    <div class="row">
+      <div class="col-12">
+        <div>
+          <form [formGroup]="customerForm" (ngSubmit)="onSubmit()">
+
+            <div class="row">
+              <div class="col-12">
+                <div class="form-group">
+                  <label><strong>First Name</strong></label>
+                  <input type="text" formControlName="fbFirstName" class="form-control"
+                    [ngClass]="{ 'is-invalid': submitted && f['fbFirstName'].errors}" />
+                  <div *ngIf="submitted && f['fbFirstName'].errors" class="invalid-feedback">
+                    <div *ngIf="f['fbFirstName'].errors['required']">First Name is required</div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label><strong>Last Name</strong></label>
+                  <input type="text" formControlName="fbLastName" class="form-control"
+                    [ngClass]="{ 'is-invalid': submitted && f['fbLastName'].errors}" />
+                  <div *ngIf="submitted && f['fbLastName'].errors" class="invalid-feedback">
+                    <div *ngIf="f['fbLastName'].errors['required']">Last Name is required</div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label><strong>Email</strong></label>
+                  <input type="text" formControlName="fbEmail" class="form-control"
+                    [ngClass]="{ 'is-invalid': submitted && f['fbEmail'].errors}" />
+                  <div *ngIf="submitted && f['fbEmail'].errors" class="invalid-feedback">
+                    <div *ngIf="f['fbEmail'].errors['required']">Email is required</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12">
+                <div class="form-group text-center">
+                  <button type="submit" class="btn btn-primary">Add</button>
+                  &nbsp; &nbsp;
+                  <button type="reset" class="btn btn-primary" (click)="resetForm()">Reset</button>
+                </div>
+                
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

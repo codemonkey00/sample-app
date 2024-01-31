@@ -1,0 +1,133 @@
+
+@import "fonts";
+@import "colors";
+
+$text-color: #676a6c;
+
+$ibox-title-bg: #ffffff;
+$ibox-content-bg: #ffffff;
+$border-color: #e7eaec;
+
+
+$buttonFontColor: #ffffff;
+$buttonColor: #4987a1;
+
+$gray: #c2c2c2;
+
+$wrapperBkgd: #f3f3f4;
+
+$default-theme: (  
+    --background-color: $white,
+    
+    --text-color: $text-color,
+    --font-family: $arial,
+
+    --bannerBGColor: $white,
+    --bannerColor: $text-color,
+    --wrapperBkgd: #f3f3f4,
+    --footerBGColor: $white,
+    --footerColor: $text-color,
+
+    --menuBGColor: #404040,
+    --menuFontColor: #ccc,
+    --menuRollOverBG: #808080,
+    --menuFontROColor: #fff,
+    --menuActiveBG: #575757,
+    --menuActiveBGFont: #fff,
+    --submenuBorder: #f7931d,
+
+    --buttonFontColor: $white,  
+    --buttonColor: $dark-gray,
+    --buttonHoverColor: $light-gray,
+
+    --border-color: #e7eaec,
+    --ibox-title-bg: #ffffff,
+    --ibox-content-bg: #ffffff,
+);
+
+$day-theme: (  
+  --background-color: $light-gray,
+    
+  --text-color: $text-color,
+  --font-family: $arial,
+
+  --bannerBGColor: $blue,
+  --bannerColor: $white,
+  --wrapperBkgd: $light-blue,
+  --footerBGColor: $blue,
+  --footerColor: $white,
+
+  --menuBGColor: #041858,
+  --menuFontColor: #ccc,
+  --menuRollOverBG: $light-blue,
+  --menuFontROColor: $black,
+  --menuActiveBG: #053df5,
+  --menuActiveBGFont: #fff,
+  --submenuBorder: #1f3681,
+
+  --buttonFontColor: $white,  
+  --buttonColor: $blue,
+  --buttonHoverColor: $light-blue,
+
+  --border-color: #e7eaec,
+  --ibox-title-bg: #ffffff,
+  --ibox-content-bg: #ffffff,
+);
+
+$night-theme: (  
+    --background-color: $light-gray,
+    
+    --text-color: $text-color,
+    --font-family: $arial,
+  
+    --bannerBGColor: $purple,
+    --bannerColor: $white,
+    --wrapperBkgd: $dark-purple,
+    --footerBGColor: $purple,
+    --footerColor: $white,
+  
+    --menuBGColor: #8002c9,
+    --menuFontColor: #ccc,
+    --menuRollOverBG: $dark-purple,
+    --menuFontROColor: $white,
+    --menuActiveBG: #6701a1,
+    --menuActiveBGFont: #fff,
+    --submenuBorder: #ad27fa,
+  
+    --buttonFontColor: $white,  
+    --buttonColor: $purple,
+    --buttonHoverColor: $dark-purple,
+  
+    --border-color: #e7eaec,
+    --ibox-title-bg: #ffffff,
+    --ibox-content-bg: #ffffff,
+);
+
+$forest-theme: (
+  --background-color: $dark-gray,
+    
+  --text-color: $text-color,
+  --font-family: $calibri,
+
+  --bannerBGColor: $green,
+  --bannerColor: $white,
+  --wrapperBkgd: $light-green,
+  --footerBGColor: $green,
+  --footerColor: $white,
+
+  --menuBGColor: #033b36,
+  --menuFontColor: #ccc,
+  --menuRollOverBG: $light-green,
+  --menuFontROColor: $black,
+  --menuActiveBG: #016e65,
+  --menuActiveBGFont: #fff,
+  --submenuBorder: #04504a,
+
+  --buttonFontColor: $white,  
+  --buttonColor: $green,
+  --buttonHoverColor: $light-green,
+
+  --border-color: #e7eaec,
+  --ibox-title-bg: #ffffff,
+  --ibox-content-bg: #ffffff,
+);

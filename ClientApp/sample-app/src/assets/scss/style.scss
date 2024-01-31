@@ -1,0 +1,293 @@
+
+body {
+  color: var(--text-color);
+  background-image: linear-gradient(var(--background-color), #3b3b3b, var(--background-color));    
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+body, html {
+  height:  100%;
+  margin:  0px auto;
+}
+
+.header-bkgd {
+    height: 100px;
+    text-align: center;
+    // text-shadow: 2px 2px white;
+    background-color: var(--bannerBGColor);
+    color: var(--bannerColor);
+}
+
+.header-text {
+  padding-top: 10px;
+}
+
+/* WRAPPERS */
+
+.wrapper {
+  height: 100%;
+  min-height: 600px;
+  background-color: var(--wrapperBkgd);
+  }
+
+  .wrapper-content {
+    margin: 10px 10px 10px 10px;
+    padding: 20px 10px 20px 10px;
+  }
+
+
+.row {
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.white-text {
+  color: $white;
+  padding-left: 10px;
+}
+
+/* css flex */
+
+.home-flex{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+/* ibox */
+.ibox-content h1,
+.ibox-content h2,
+.ibox-content h3,
+.ibox-content h4,
+.ibox-content h5,
+.ibox-title h1,
+.ibox-title h2,
+.ibox-title h3,
+.ibox-title h4,
+.ibox-title h5 {
+  margin-top: 5px;
+}
+
+
+.ibox {
+    clear: both;
+    margin-bottom: 25px;
+    margin-top: 0;
+    padding: 0;
+    border-radius: 25px;
+  }
+
+  .ibox-title {
+    background-color: var(--ibox-title-bg);
+    border-color: var(--border-color);
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px;
+    color: inherit;
+    margin-bottom: 0;
+    padding: 15px 90px 8px 15px;
+    min-height: 48px;
+    position: relative;
+    clear: both;
+    -webkit-border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0;
+    border-radius: 2px 2px 0 0;
+  }
+  
+  .ibox-content {
+    background-color: var(--ibox-content-bg);
+    color: inherit;
+    padding: 15px 20px 20px 20px;
+    border-color: var(--border-color);
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  .ibox-footer {
+    color: inherit;
+    border-top: 1px solid #d2d6d9;
+    font-size: 90%;
+    background: white;
+    padding: 10px 15px;
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+  }
+
+
+//ibox rounded corners
+.ibox-title, .ibox-content-no-title {
+  border-radius: 15px 15px 0px 0px;
+  border-style: none;
+  border-top: solid #979b9d thin;
+  border-left: solid #979b9d thin;
+  border-right: solid #979b9d thin;
+}
+
+.ibox-footer, .ibox-content-no-footer {
+  border-radius: 0px 0px 15px 15px;
+  border-bottom: solid #979b9d thin !important;
+  border-left: solid #979b9d thin;
+  border-right: solid #979b9d thin;
+}
+
+.ibox-content {
+  border-left: solid #979b9d thin;
+  border-right: solid #979b9d thin;
+}
+
+.ibox-content-no-footer-no-title {
+  border-radius: 15px 15px 15px 15px;
+  border: solid #979b9d thin;
+}
+
+.ibox-footer {
+  border-top: solid #979b9d thin;
+}
+
+
+/* FOOTER */
+
+.footer {
+    height: 50px;
+    width: 100%;
+    background-color: var(--footerBGColor);
+    color: var(--bannerColor);
+    border-top: 0px;
+    bottom: 0;
+    padding: 10px 20px;
+    position: relative;
+  }
+
+  .footer-left{
+    text-align: left;
+  }
+
+  .footer-right{
+    text-align: right;
+  }
+
+// rounded buttons
+// DEV OVERRIDE FILE
+.btn {
+  border-radius: 50px;
+  text-transform: capitalize !important;
+}
+
+.btn-primary {
+  background-color: var(--buttonColor);
+  border-color: var(--buttonColor);
+  color: var(--buttonFontColor) 
+}
+
+.btn-outline {
+  color: var(--buttonFontColor) !important;
+  border-color: var(--buttonFontColor);
+  background-color: transparent;
+  transition: all .5s;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary, .btn-primary:active:focus, .btn-primary:active:hover, .btn-primary.active:hover, .btn-primary.active:focus {
+  background-color: var(--buttonColor);
+  border-color: var(--buttonColor);
+  color: var(--buttonFontColor) !important;
+  filter: brightness(90%);
+}
+
+/*
+    css overrides for the Angular Materials SideNav
+*/
+
+// no backdrop when sidenav shown
+.mat-sidenav-backdrop.mat-sidenav-shown {
+  background-color: transparent;
+}
+
+.mat-sidenav {
+  min-width: 150px;
+  overflow: hidden;
+}
+
+// prevent scrollbar on sidenav
+.mat-sidenav-content {
+  overflow: hidden !important;
+}
+
+.mat-drawer {
+  background-color: var(--menuBGColor);
+}
+
+.matnav-menu-button {
+  align-content: flex-end;
+}
+
+.mat-nav-list .mat-list-item {
+  font-size: 12px;
+  font-weight: bold;
+  color: var(--menuFontColor);
+}
+
+.matnav-submenu {
+  background: var(--menuBGColor);
+  border-left: 4px solid var(--submenuBorder);
+  filter: brightness(90%);
+}
+
+.matnav-submenu .mat-list-item {
+  font-size: 11px;
+  font-weight: normal;
+  padding-left: 20px;
+}
+
+.mat-nav-list .mat-list-item.mat-list-item-focus, .mat-nav-list .mat-list-item:hover {
+  background: var(--menuRollOverBG);
+  border-color: var(--menuRollOverBG);
+  color: var(--menuFontROColor);
+  filter: brightness(90%);
+}
+
+.mat-nav-list .mat-list-item.mat-list-item-focus, .mat-nav-list .mat-list-item:active {
+  background: var(--menuActiveBG);
+  border-color: var(--menuActiveBG);
+  color: var(--menuActiveBGFont);
+  filter: brightness(90%);
+}
+
+
+.mat-nav-list .active-link {
+  background: var(--menuActiveBG);
+  border-color: var(--menuActiveBG);
+  color: var(--menuActiveBGFont);
+}
+
+
+/* 
+  mat table 
+*/
+.mat-table {
+  width: 100%;
+}
+
+.mat-column-name {
+  width: 20%;
+}
+
+.mat-column-birth_year {
+  width: 20%;
+}
+
+.mat-column-created {
+  width: 30%;
+}
+
+.mat-column-height {
+  width: 15%;
+}
+
+.mat-column-mass {
+  width: 15%;
+}

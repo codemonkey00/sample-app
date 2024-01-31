@@ -1,0 +1,16 @@
+
+@import './variables.scss';
+@import './mixins.scss';
+
+:root.default-theme {
+  @include spread-map($default-theme);
+}
+:root.day-theme {
+  @include spread-map($day-theme);
+}
+:root.night-theme {
+  @include spread-map($night-theme);
+}
+:root.forest-theme {
+  @include spread-map($forest-theme);
+}
